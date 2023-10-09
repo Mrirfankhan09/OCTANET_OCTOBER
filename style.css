@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to bottom right,rgb(0, 60, 255),rgb(149, 0, 255));
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.container{
+    background-color: #fff;
+    width: 350px;
+    overflow: auto;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.items{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    width: 100%;
+
+}
+.heading h3{
+    font-size: 22px;
+}
+form{
+    width: 100%;
+    background-color: #ccc;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    margin: .4rem 0;
+}
+input{
+    width: 100%;
+    /* height: 100%; */
+    font-size: 18px;
+    padding: .6rem;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+.btn{
+    /* font-size: 18px; */
+    font-size: 18px;
+    padding:.6rem 1.5rem;
+    border-radius:20px;
+    color: #fff;
+    border: none;
+    background-color: rgb(255, 89, 0);
+}
+.btn:hover{
+    background-color: rgb(234, 145, 98);
+}
+.tasks{
+    padding: .4rem .2rem;
+}
+.tasks li{
+    background-color: rgb(255, 255, 255);
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #000;
+    font-size: 18px;
+    
+}
+.tasks li span{
+    color: #000;
+}
+ul li.checked{
+    background-color: #06ed06;
+
+}
+ul li.checked span{
+    text-decoration: none;
+}
